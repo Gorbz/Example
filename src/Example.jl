@@ -1,5 +1,12 @@
-module Example
+module Example #This is a module
 
-# Write your package code here.
+
+
+greet() = print("Hello World!") # Write your package code here.
+include("functions.jl")
+
+export greet
+export funct
+export g
 
 end
